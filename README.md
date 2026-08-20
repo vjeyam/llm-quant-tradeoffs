@@ -14,17 +14,17 @@ Benchmarks how much accuracy you actually lose when you quantize an LLM down for
 | qwen2.5-7b-q2 | Q2_K | 2.81 (−80%) | 49.7% | 73.4% | 230.5 |
 
 <p align="center">
-  <img src="plots/accuracy_vs_size.png" width="700" alt="Accuracy vs model size"><br>
+  <img src="assets/accuracy_vs_size.png" width="700" alt="Accuracy vs model size"><br>
   <em>Accuracy holds flat from F16 down through Q4_K_M, then drops sharply at Q2_K on MedQA. PubMedQA barely moves.</em>
 </p>
 
 <p align="center">
-  <img src="plots/compression_vs_accuracy.png" width="700" alt="Accuracy retention vs compression"><br>
+  <img src="assets/compression_vs_accuracy.png" width="700" alt="Accuracy retention vs compression"><br>
   <em>Compression is basically free up to ~70% size reduction — then MedQA accuracy falls off a cliff past that point.</em>
 </p>
 
 <p align="center">
-  <img src="plots/accuracy_vs_latency.png" width="700" alt="Accuracy vs latency"><br>
+  <img src="assets/accuracy_vs_latency.png" width="700" alt="Accuracy vs latency"><br>
   <em>Median latency differences are small at this scale; the real gains from quantization show up in throughput (tokens/sec) rather than latency.</em>
 </p>
 
