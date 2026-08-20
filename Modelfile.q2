@@ -1,0 +1,1 @@
+FROM C:/LLM/llm-quant-tradeoffs/models/qwen2.5-7b/qwen2.5-7b-instruct-q2_k.gguf

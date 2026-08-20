@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda
+.conda/
+*.conda
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Hugging Face cache
+.cache/
+**/.cache/
+
+# Model weights / large model artifacts
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Benchmark outputs
+results/
+plots/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
